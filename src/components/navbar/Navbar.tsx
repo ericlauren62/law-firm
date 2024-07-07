@@ -72,18 +72,18 @@ const DesktopNav = () => {
         <Image src={logo} alt="logo" height={200} width={200} />
       </div>
       <ul className="flex gap-x-12 items-center text-lg">
-        <li>
+        <li className="hover:text-primary">
           <Link href="/about">About</Link>
         </li>
-        <li>
+        <li className="hover:text-primary">
           <Link href="/services">Services</Link>
         </li>
-        <li>
+        <li className="hover:text-primary">
           <Link href="/attorneys">Attorneys</Link>
         </li>
       </ul>
       <div>
-        <Link href="/contact" className="bg-primary h-[45px] w-[200px] rounded-full text-white py-3 px-5">
+        <Link href="/contact" className="bg-primary h-[50px] w-[200px] rounded-full text-white py-3 px-5">
           Contact Us
         </Link>
       </div>

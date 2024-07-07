@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ButtonLink from "../shared/ButtonUrl";
 
 export default function HomeHero() {
   return (
@@ -15,18 +16,8 @@ export default function HomeHero() {
             legal matters effectively.
           </p>
           <div className="flex flex-col justify-center items-center gap-y-3 mt-10 lg:gap-x-8 lg:justify-start lg:flex-row ">
-            <Link
-              href="/contact"
-              className="bg-primary text-white rounded-full flex items-center justify-center h-[45px] w-[200px]"
-            >
-              Book Consulation
-            </Link>
-            <Link
-              href="/about"
-              className="border border-white rounded-full flex items-center justify-center h-[45px] w-[200px]"
-            >
-              Explore More
-            </Link>
+            <ButtonLink dark btntext="Book Consulation" url="/contact" />
+            <ButtonLink btntext="Explore More" url="/contact" />
           </div>
         </div>
       </div>

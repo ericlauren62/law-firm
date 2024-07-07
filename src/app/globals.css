@@ -7,6 +7,7 @@
 body{
   font-weight: 300;
   line-height: 1.5em;
+  color: #213753;
 }
 
 @layer utilities{

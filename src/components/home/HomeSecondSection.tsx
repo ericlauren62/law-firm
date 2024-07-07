@@ -22,7 +22,7 @@ export default function HomeSecondSection() {
   ];
 
   return (
-    <section className="py-24 bg-gray-700 text-white">
+    <section className="py-32 bg-black text-white">
       <div className="container lg:grid lg:grid-cols-2 lg:gap-x-16">
         <div className="mb-14 lg:mb-0">
           <h2 className="text-4xl font-medium mb-6 lg:text-5xl lg:leading-[57.6px]">Highest standards</h2>

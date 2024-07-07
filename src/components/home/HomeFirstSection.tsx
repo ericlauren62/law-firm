@@ -1,6 +1,7 @@
 import Link from "next/link";
 import img from "/public/images/homeImg1.webp";
 import Image from "next/image";
+import ButtonLink from "../shared/ButtonUrl";
 
 export default function HomeFirstSection() {
   return (
@@ -15,18 +16,8 @@ export default function HomeFirstSection() {
           deserve. Our comprehensive expertise allows us to handle a wide range of legal matters effectively.
         </p>
         <div className="flex flex-col justify-center items-center gap-y-3 mt-10 lg:gap-x-8 lg:justify-start lg:flex-row ">
-          <Link
-            href="/contact"
-            className="bg-primary text-white rounded-full flex items-center justify-center h-[45px] w-[200px]"
-          >
-            Get In Touch
-          </Link>
-          <Link
-            href="/about"
-            className="border border-primary rounded-full flex items-center justify-center h-[45px] w-[200px]"
-          >
-            Explore More
-          </Link>
+          <ButtonLink url="/contact" btntext="Get In Touch" dark />
+          <ButtonLink url="/contact" btntext="Explore More" />
         </div>
       </div>
       <div>

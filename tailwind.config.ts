@@ -12,9 +12,13 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         heroBg: "url('/images/homeHero.webp')",
+        homeForthSectionBg: "url('/images/homeImg2.webp')",
       },
       colors: {
         primary: "#9E101C",
+        secondary: "#ddebf9",
+        black: "#213753",
+        dark: "#000",
       },
     },
   },

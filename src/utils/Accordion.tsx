@@ -1,7 +1,7 @@
 "use client";
 
 import { AccordionItem } from "@/types/AccordionItem";
-import React, { useState } from "react";
+import { useState } from "react";
 import { FiMinus, FiPlus } from "react-icons/fi";
 
 interface AccordionDataProps {
@@ -22,10 +22,10 @@ const Accordion = ({ accordionData }: AccordionDataProps) => {
   return (
     <div className="mt-6">
       {accordionData.map((item: AccordionItem, index: number) => (
-        <div key={index} className="mb-8 border-b border-gray-500">
-          <button onClick={() => toggleAccordion(index)} className="w-full text-left pb-2 focus:outline-none">
-            <div className="flex justify-between items-center p-5 ">
-              <span className="text-2xl lg:text-3xl leading-[36.4px] font-medium">{item.title}</span>
+        <div key={index} className="mb-5 border-b">
+          <button className="w-full mb-6" onClick={() => toggleAccordion(index)}>
+            <div className="flex justify-between items-center py-5 w-full ">
+              <div className="text-2xl font-medium">{item.title}</div>
               <div className="text-2xl">{activeIndex !== null && activeIndex === index ? <FiMinus /> : <FiPlus />}</div>
             </div>
           </button>

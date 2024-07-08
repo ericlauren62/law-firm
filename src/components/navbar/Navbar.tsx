@@ -68,9 +68,9 @@ const MobileNav = ({ scrolled }: { scrolled: boolean }) => {
 const DesktopNav = () => {
   return (
     <nav className="hidden lg:flex justify-between items-center w-full">
-      <div>
+      <Link href="/">
         <Image src={logo} alt="logo" height={200} width={200} />
-      </div>
+      </Link>
       <ul className="flex gap-x-12 items-center text-lg">
         <li className="hover:text-primary">
           <Link href="/about">About</Link>
@@ -80,6 +80,9 @@ const DesktopNav = () => {
         </li>
         <li className="hover:text-primary">
           <Link href="/attorneys">Attorneys</Link>
+        </li>
+        <li className="hover:text-primary">
+          <Link href="/blogs">Blogs</Link>
         </li>
       </ul>
       <div>

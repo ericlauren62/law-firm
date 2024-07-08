@@ -1,9 +1,8 @@
-import Link from "next/link";
-import img from "/public/images/homeImg1.webp";
 import Image from "next/image";
-import ButtonLink from "../shared/ButtonUrl";
+import ButtonLink from "./ButtonUrl";
+import img from "/public/images/homeImg1.webp";
 
-export default function HomeFirstSection() {
+export default function TrustCard() {
   return (
     <section className="container py-14 lg:grid lg:grid-cols-2 lg:gap-x-20 lg:py-32">
       <div className="mb-10">

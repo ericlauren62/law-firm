@@ -23,9 +23,9 @@ const Accordion = ({ accordionData }: AccordionDataProps) => {
     <div className="mt-6">
       {accordionData.map((item: AccordionItem, index: number) => (
         <div key={index} className="mb-5 border-b">
-          <button className="w-full mb-10" onClick={() => toggleAccordion(index)}>
+          <button className="w-full mb-5" onClick={() => toggleAccordion(index)}>
             <div className="flex justify-between items-center py-5 w-full ">
-              <div className="text-2xl font-medium">{item.title}</div>
+              <div className="text-xl font-medium">{item.title}</div>
               <div className="text-2xl">{activeIndex !== null && activeIndex === index ? <FiMinus /> : <FiPlus />}</div>
             </div>
           </button>

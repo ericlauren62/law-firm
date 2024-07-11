@@ -1,8 +1,8 @@
 import BlogCard from "../shared/BlogCard";
 import ButtonLink from "../shared/ButtonUrl";
-import featuredImg1 from "public/images/featuredimg1.jpg";
-import featuredImg2 from "public/images/featuredimg2.jpg";
-import featuredImg3 from "public/images/featuredimg3.jpg";
+import featuredImg1 from "/public/images/featuredimg1.jpg";
+import featuredImg2 from "/public/images/featuredimg2.jpg";
+import featuredImg3 from "/public/images/featuredimg3.jpg";
 
 export default function AboutFeaturedNews() {
   return (

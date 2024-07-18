@@ -1,8 +1,8 @@
 export default function ServicesSecondSection() {
   return (
-    <section className="container py-20">
-      <h2 className="text-2xl lg:text-5xl text-center font-medium mb-16">Specializations</h2>
-      <div className="grid lg:grid-cols-2 lg:gap-x-24 lg:gap-y-16">
+    <section className="container pb-20 lg:pb-0 lg:py-20">
+      <h2 className="text-3xl lg:text-5xl text-center font-medium mb-16">Specializations</h2>
+      <div className="grid gap-y-8 lg:grid-cols-2 lg:gap-x-24 lg:gap-y-16">
         <div className="bg-secondary p-10">
           <h2 className="font-medium text-xl mb-3 ">BUSINESS LITIGATION</h2>
           <p>

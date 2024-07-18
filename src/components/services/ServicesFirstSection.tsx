@@ -5,7 +5,7 @@ export default function ServicesFirstSection() {
   const accordionData: AccordionItem[] = [
     {
       id: "1",
-      title: "Large Firm Results, Small Firm Service",
+      title: "Large and Small Firm Service",
       content:
         "Some of the largest firms have repeatable processes that they bring to bear on every case, but unless you are a Fortune 500 company, they probably won’t give you the time of day.  We bring those same proven processes for winning cases to bear even for our smallest clients.",
     },
@@ -29,7 +29,7 @@ export default function ServicesFirstSection() {
     },
   ];
   return (
-    <section className="container py-16  gap-x-32 grid grid-cols-2">
+    <section className="container py-16 grid gap-y-20 lg:gap-y-0  lg:gap-x-32 lg:grid-cols-2">
       <div>
         <h2 className="font-medium text-2xl mb-8">We will help you navigate through the difficulties of your case</h2>
         <p className="mb-4">

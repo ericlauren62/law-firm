@@ -47,7 +47,7 @@ export default function Footer() {
               <Link href="/attorneys">Attorneys</Link>
             </li>
             <li>
-              <Link href="/blog">Blog</Link>
+              <Link href="/blogs">Blogs</Link>
             </li>
             <li>
               <Link href="/contact">Contact</Link>

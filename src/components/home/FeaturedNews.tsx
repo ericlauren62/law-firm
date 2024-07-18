@@ -19,19 +19,19 @@ export default function FeaturedNews() {
           title="The legal side of starting business"
           image={featuredImg1}
           description="With a solid strategy, our team will work diligently to execute the plan and advocate for your rights."
-          url="/blog"
+          url="/blogs"
         />
         <BlogCard
           title="The importance of estate planning"
           image={featuredImg2}
           description="With a solid strategy, our team will work diligently to execute the plan and advocate for your rights."
-          url="/blog"
+          url="/blogs"
         />
         <BlogCard
           title="Navigating divorce: step-by-step guide"
           image={featuredImg3}
           description="With a solid strategy, our team will work diligently to execute the plan and advocate for your rights."
-          url="/blog"
+          url="/blogs"
         />
       </div>
     </section>

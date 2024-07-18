@@ -15,6 +15,7 @@ const config: Config = {
         homeForthSectionBg: "url('/images/homeImg2.webp')",
         attorneyheroBg: "url('/images/attorneyHero.webp')",
         servicesHeroBg: "url('/images/servicesBg.jpg')",
+        blogHeroBg: "url('/images/blogHero.webp')",
       },
       colors: {
         primary: "#9E101C",

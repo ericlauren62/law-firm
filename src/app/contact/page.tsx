@@ -1,3 +1,13 @@
+import ContactFirstSection from "@/components/contact/ContactFirstSection";
+import ContactHero from "@/components/contact/ContactHero";
+import ContactCard from "@/components/shared/ContactCard";
+
 export default function page() {
-  return <div>page</div>;
+  return (
+    <main>
+      <ContactHero />
+      <ContactFirstSection />
+      <ContactCard />
+    </main>
+  );
 }

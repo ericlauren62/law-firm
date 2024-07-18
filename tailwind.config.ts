@@ -13,6 +13,7 @@ const config: Config = {
         "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         heroBg: "url('/images/homeHero.webp')",
         homeForthSectionBg: "url('/images/homeImg2.webp')",
+        attorneyheroBg: "url('/images/attorneyHero.webp')",
         servicesHeroBg: "url('/images/servicesBg.jpg')",
       },
       colors: {

@@ -8,7 +8,7 @@ import navigatingdivorce from "/public/images/featuredimg3.jpg";
 
 export default function BlogList() {
   return (
-    <section className="container grid grid-cols-3 gap-x-5 gap-y-10 py-20">
+    <section className="container grid lg:grid-cols-3 lg:gap-x-5 gap-y-10 py-20">
       <BlogCard
         title="Securing your family's future"
         image={realestate}

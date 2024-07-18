@@ -5,6 +5,7 @@ import logo from "/public/images/Lawfirmlogo.svg";
 import hamburger from "/public/images/hamburger.svg";
 import Image from "next/image";
 import { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -40,6 +41,11 @@ export default function Navbar() {
 
 const MobileNav = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
+  const path = usePathname();
+
+  useEffect(() => {
+    setIsNavOpen(false);
+  }, [path]);
 
   useEffect(() => {
     if (isNavOpen) {
@@ -57,9 +63,9 @@ const MobileNav = () => {
 
   return (
     <nav className="flex justify-between items-center lg:hidden">
-      <div>
+      <Link href="/">
         <Image src={logo} alt="logo" height={150} width={150} />
-      </div>
+      </Link>
       <ul
         className={`bg-white text-black fixed top-16 left-0 text-lg grid gap-y-3 w-full z-50 bg-gray px-6 py-6 transition-all duration-300 ${
           isNavOpen ? "transform translate-x-0" : "transform -translate-x-full"

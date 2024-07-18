@@ -18,13 +18,13 @@ export default function Footer() {
             <div>
               <IoLocationSharp />
             </div>
-            165 Fleet Street, London, United Kingdom
+            500 North Broadway Suite 1860C St. Louis, MO 63102
           </div>
           <div className="flex items-center gap-x-3">
             <div>
               <FaPhoneAlt />
             </div>
-            +442077782025
+            (704) 358-1528
           </div>
           <div className="flex items-center gap-x-3">
             <div>
@@ -55,7 +55,7 @@ export default function Footer() {
           </ul>
         </div>
       </div>
-      <p className="container font-medium">© 2024 Thommessen&paul All rights reserved.</p>
+      <p className="container font-medium">Copyright © 2024 Thommessen&paul.com All rights reserved.</p>
     </footer>
   );
 }

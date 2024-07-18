@@ -7,7 +7,7 @@ export default function ContactCard() {
       <div className="bg-secondary h-[350px] p-16">
         <div className="mb-8">
           <h4 className="text-3xl font-semibold mb-3">Find Us</h4>
-          <p>14 Tottenham Road, London, England</p>
+          <p>500 North Broadway Suite 1860C St. Louis, MO 63102</p>
         </div>
         <div>
           <h4 className="text-3xl font-semibold mb-3">Contact Us</h4>

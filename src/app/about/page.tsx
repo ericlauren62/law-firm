@@ -5,6 +5,13 @@ import AboutSecondSection from "@/components/about/AboutSecondSection";
 import FeaturedLawyer from "@/components/shared/FeaturedLawyer";
 import StepsCard from "@/components/shared/StepsCard";
 import TrustCard from "@/components/shared/TrustCard";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About | Thommessen and Paul Law Firm",
+  description:
+    "Experienced, award-winning attorneys Concentrating in commercial litation, complex business litigation, personal injury and committed to helping clients solve their most complex cases.",
+};
 
 export default function page() {
   return (

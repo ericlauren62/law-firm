@@ -2,9 +2,9 @@ import BlogCard from "../shared/BlogCard";
 import realestate from "/public/images/realestate.jpg";
 import injury from "/public/images/injury.jpg";
 import childcustody from "/public/images/childcustody.jpg";
-import business from "/public/images/featuredImg1.jpg";
-import estateplanning from "/public/images/featuredImg2.jpg";
-import navigatingdivorce from "/public/images/featuredImg3.jpg";
+import business from "/public/images/featuredimg1.jpg";
+import estateplanning from "/public/images/featuredimg2.jpg";
+import navigatingdivorce from "/public/images/featuredimg3.jpg";
 
 export default function BlogList() {
   return (

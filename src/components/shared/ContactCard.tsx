@@ -12,7 +12,7 @@ export default function ContactCard() {
         <div>
           <h4 className="text-3xl font-semibold mb-3">Contact Us</h4>
           <p>info@thommessenpaulllp.com</p>
-          <p>(619)379-8297</p>
+          <p>(619) 379-8297</p>
         </div>
       </div>
       <div className="w-full bg-secondary h-[350px] relative">

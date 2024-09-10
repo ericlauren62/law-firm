@@ -24,7 +24,7 @@ export default function Footer() {
             <div>
               <FaPhoneAlt />
             </div>
-            (704) 358-1528
+            (619) 379-8297
           </div>
           <div className="flex items-center gap-x-3">
             <div>

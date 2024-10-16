@@ -18,13 +18,14 @@ export default function Footer() {
             <div>
               <IoLocationSharp />
             </div>
-            500 North Broadway Suite 1860C St. Louis, MO 63102
+            21777 Ventura Blvd Suite 203, Woodland Hills, CA 91364, United
+            States
           </div>
           <div className="flex items-center gap-x-3">
             <div>
               <FaPhoneAlt />
             </div>
-            (619) 379-8297
+            (323) 608-9636
           </div>
           <div className="flex items-center gap-x-3">
             <div>
@@ -55,7 +56,9 @@ export default function Footer() {
           </ul>
         </div>
       </div>
-      <p className="container font-medium">Copyright © 2024 Thommessen&paul.com All rights reserved.</p>
+      <p className="container font-medium">
+        Copyright © 2024 Thommessen&paul.com All rights reserved.
+      </p>
     </footer>
   );
 }
